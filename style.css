@@ -1,9 +1,10 @@
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 .logo{
-    width: 3rem;
+    width: 6rem;
     object-fit: cover;
 }
 
@@ -25,6 +26,22 @@ body {
     font-size: 5rem;
     color: white;
     font-family: helvetica;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.nav-01{
+    margin-right: 4rem;
+    width: auto;
+
+}
+
+.nav-02{
+    margin-left: 4rem;
+    
 }
 
 
