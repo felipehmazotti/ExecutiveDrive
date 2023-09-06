@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+.logo{
+    width: 3rem;
+    object-fit: cover;
+}
+
+.video1{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    /* position: absolute; */
+
+}
+
+.navbar{
+    margin-top: 2rem;
+    position: fixed;
+    z-index: 1;
+}
+
+.p-title{
+    font-size: 5rem;
+    color: white;
+    
+}
+
+
+@media screen and (max-device-width: 480px) {
+
+}
