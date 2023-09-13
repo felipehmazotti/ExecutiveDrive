@@ -22,6 +22,12 @@ body {
     z-index: 1;
 }
 
+.p-title2{
+    font-size: 5rem;
+    color: rgb(0, 174, 255);
+    font-family: helvetica;
+}
+
 .p-title{
     font-size: 5rem;
     color: white;
@@ -48,3 +54,8 @@ body {
 /* @media screen and (max-device-width: 480px) {
 
 } */
+
+
+
+
+
