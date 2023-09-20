@@ -89,6 +89,7 @@ nav div{
 
 .carouselExampleControls{
     padding:5%;
+    animation: slide 1s infinite;
 }
 
 /* CORTESIA do Mayck */
@@ -152,6 +153,116 @@ nav div{
     width: 70%;
     margin: auto;
 }
+
+.catego {
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.bm {
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.bm2 {
+    color: rgb(0, 51, 255);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.bm3 {
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.audi {
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.audi2 {
+    color: rgb(0, 51, 255);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black 
+}
+
+.audi3 {
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.mase {
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.mase2 {
+    color: rgb(0, 51, 255);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black 
+}
+
+.mase3 {
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.ford {
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.ford2 {
+    color: rgb(0, 51, 255);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black 
+}
+
+.ford3 {
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.porc {
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.porc2 {
+    color: rgb(0, 51, 255);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black 
+}
+
+.porc3 {
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.marcas {
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2.4rem;
+
+}
+
+.card{
+    width: 300px;
+}
+
+
 /* @media screen and (max-device-width: 480px) {
 
 } */
