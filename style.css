@@ -90,7 +90,7 @@ body::-webkit-scrollbar {
 
 }
 
-.card-img{
+.image{
     width: 400px;
     height: 600px;
     object-fit: cover;
@@ -100,7 +100,30 @@ body::-webkit-scrollbar {
     color: rgb(0, 0, 0);
 }
 
+.img2{
+    width: 722px;
+    height: 255px;
+}
 
+
+
+.carousel-item img{
+    height: 395px;
+    width: 1125px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.slide{
+    height: 395px;
+    width: 1125px;
+    margin: auto;
+}
+
+.posicao {
+
+
+}
 /* @media screen and (max-device-width: 480px) {
 
 } */
