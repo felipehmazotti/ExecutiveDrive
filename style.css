@@ -6,6 +6,8 @@ body {
     font-family: 'Kanit', sans-serif;
 }
 
+
+
 body::-webkit-scrollbar {
     display: none;
   }
@@ -26,6 +28,15 @@ body::-webkit-scrollbar {
     z-index: 1;
 }
 
+/* NAVBAR no centro */
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav div{
+    margin: auto;
+}
 
 
 .p-title2{
@@ -46,14 +57,12 @@ body::-webkit-scrollbar {
 }
 
 .nav-01{
-    margin-right: 4rem;
-    width: 165px;
+    width: 193px;
 
 }
 
 .nav-02{
-    margin-left: 4rem;
-    width: 165px;
+    width: 200px;
     
 }
 
@@ -107,23 +116,19 @@ body::-webkit-scrollbar {
 
 
 
-.carousel-item img{
-    height: 395px;
-    width: 1125px;
-    object-fit: cover;
-    border-radius: 20px;
+
+
+.posicao2{
+    margin-left: 100px;
 }
 
-.slide{
-    height: 395px;
-    width: 1125px;
-    margin: auto;
+.posicao1{
+    margin-right: 110px;
 }
 
-.posicao {
 
 
-}
+
 /* @media screen and (max-device-width: 480px) {
 
 } */
