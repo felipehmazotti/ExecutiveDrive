@@ -18,31 +18,34 @@
         height: 240px;
 } */
 
+
 body {
     background-color: rgb(42, 42, 42);
     overflow-x: hidden;
     font-family: 'Kanit', sans-serif;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 
 
 body::-webkit-scrollbar {
     display: none;
-  }
+}
 
-.logo{
+.logo {
     width: 6rem;
     object-fit: cover;
 }
 
-.video1{
+.video1 {
     height: 100vh;
     width: 100vw;
     object-fit: cover;
 }
 
-.navbar{
-    position: fixed;
+.navbar {
+    position: absolute;
     z-index: 1;
 }
 
@@ -52,71 +55,70 @@ nav {
     text-align: center;
 }
 
-nav div{
+nav div {
     margin: auto;
 }
 
-.p-title2{
+.p-title2 {
     font-size: 4rem;
     color: rgb(0, 174, 255);
     font-family: 'Kanit', sans-serif;
 }
 
-.p-title{
+.p-title {
     font-size: 4rem;
     color: rgb(255, 255, 255);
     font-family: 'Kanit', sans-serif;
 }
 
-.nav-link{
+.nav-link {
     font-size: 1.2rem;
     color: white;
 }
 
-.nav-01{
+.nav-01 {
     width: 193px;
 
 }
 
-.nav-02{
+.nav-02 {
     width: 200px;
-    
+
 }
 
 .logo {
     text-align: center;
 }
 
-.carouselExampleControls{
-    padding:5%;
-    animation: slide 1s infinite;
+.carouselExampleControls {
+    padding: 5%;
 }
 
 /* CORTESIA do Mayck */
-.esquerda{
+.esquerda {
     width: 100%;
 }
 
-.esquerda div{
+.esquerda div {
     margin: auto;
     margin-top: 0;
 }
 
 /*  */
 
-.desencostar{
+.desencostar {
     margin-top: 80px;
 }
 
-.c-title{
-    text-align: center ;
+.c-title {
+    text-align: center;
     color: rgb(255, 255, 255);
     font-size: 2.5rem;
     margin-top: 80px;
     font-family: 'Kanit', sans-serif;
 }
 
-.c-tamanho{
+.c-tamanho {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -124,129 +126,41 @@ nav div{
 
 }
 
-.image{
+.image {
     width: 400px;
     height: 600px;
     object-fit: cover;
 }
 
-.card-title{
+.card-title {
     color: rgb(0, 0, 0);
 }
 
-.img2{
+.img2 {
     width: 722px;
     height: 255px;
 }
 
 
 
-.carousel-item img{
+.carousel-item img {
     height: 450px;
     width: 70%;
     object-fit: cover;
     border-radius: 20px;
 }
 
-.slide{
+.slide {
     height: 450px;
     width: 70%;
     margin: auto;
+    align-items: center;
+    object-fit: cover;
 }
 
 .catego {
     text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-
-.bm {
-    font-size: 50px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-
-.bm2 {
-    color: rgb(0, 51, 255);
-    font-size: 50px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-
-.bm3 {
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-
-.audi {
-    font-size: 50px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-
-.audi2 {
-    color: rgb(0, 51, 255);
-    font-size: 50px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black 
-}
-
-.audi3 {
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-
-.mase {
-    font-size: 50px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-
-.mase2 {
-    color: rgb(0, 51, 255);
-    font-size: 50px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black 
-}
-
-.mase3 {
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-
-.ford {
-    font-size: 50px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-
-.ford2 {
-    color: rgb(0, 51, 255);
-    font-size: 50px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black 
-}
-
-.ford3 {
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-
-.porc {
-    font-size: 50px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-}
-
-.porc2 {
-    color: rgb(0, 51, 255);
-    font-size: 50px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black 
-}
-
-.porc3 {
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
+        1px 0 black, 0 -1px black
 }
 
 .marcas {
@@ -254,20 +168,302 @@ nav div{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 2.4rem;
-
+    justify-content: center;
 }
 
-.card{
+.card {
     width: 300px;
 }
+
+.bm {
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.bm2 {
+    color: rgb(0, 51, 255);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.bm3 {
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.audi {
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.audi2 {
+    color: rgb(0, 51, 255);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.audi3 {
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.mase {
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.mase2 {
+    color: rgb(0, 51, 255);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.mase3 {
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.ford {
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.ford2 {
+    color: rgb(0, 51, 255);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.ford3 {
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.porc {
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.porc2 {
+    color: rgb(0, 51, 255);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.porc3 {
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black
+}
+
+.sobreimg {
+    height: 120vh;
+    width: 120vw;
+    object-fit: cover;
+}
+
+
+.title-sobre {
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    object-fit: cover;
+}
+
+.title-sobre2 {
+    color: rgb(0, 51, 255);
+    object-fit: cover;
+}
+
+.txt-sobre {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black;
+    font-size: 20px;
+    width: 80vw;
+    margin-bottom: 200px;
+}
+
+.pn-title{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    margin-top: 80px;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 50px;
+}
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 800px) {
+    .pn-title{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .pn-title{
+        width: 100%;
+    }
+}
+
+.slide2 {
+    height: 100%;
+    width: 910px;
+    object-fit: cover;
+    border-radius: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+.slide2 .carousel-inner{
+    height: 100%;
+    width: 910px;
+    object-fit: cover;
+    border-radius: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.container-footer {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #cecdcd;
+    padding-left: 10px;
+}
+
+.footer-col .medias-socias {
+    margin-top: 30px;
+}
+
+.footer-col .medias-socias a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+
+.footer-col .medias-socias a i {
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover {
+    color: #000000;
+    background-color: white;
+}
+
+.footer-col .form-sub input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #000000;
+}
+
+.footer-col .form-sub input::placeholder {
+    color: white;
+}
+
+.footer-col .form-sub button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #415aca;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 800px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+
+
 
 
 /* @media screen and (max-device-width: 480px) {
 
 } */
-
-
-
-
-
