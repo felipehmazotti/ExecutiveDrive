@@ -471,10 +471,51 @@ footer {
 
 }
 
+/* propaganda css */
 
+.popup {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation-name: popup;
+    animation-duration: 2s;
+}
 
+.popup-content {
+    text-align: center;
+    position: relative;
+    max-width: 55%; 
+}
 
+.fechar {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #fff;
+}
 
-/* @media screen and (max-device-width: 480px) {
+.propaganda {
+    max-width: 100%; /* Faça a imagem se ajustar ao contêiner */
+    height: 500%;
+    border-radius: 30px;
+}
 
-} */
+@keyframes popup {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
